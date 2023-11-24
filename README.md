@@ -1,28 +1,28 @@
-# React Hooks Tutorial Repository
+# Repositori React Hooks
 
-Welcome to the React Hooks Tutorial Repository! This repository contains the source code related to the React Hooks tutorial.
+Selamat datang di repositori React Hooks! Repositori ini berisi source code untuk materi React Hooks.
 
-## What are React Hooks?
+## Apa itu React Hooks?
 
-React Hooks are functions that allow you to use state and other React features in functional components. They were introduced in React 16.8 as a way to use stateful logic in functional components, avoiding the need for class components.
+React Hooks adalah fungsi yang memungkinkan Anda menggunakan state dan fitur React lainnya dalam komponen fungsional. Fungsi ini diperkenalkan pada React 16.8 sebagai cara untuk menggunakan logika yang berkaitan dengan state dalam komponen fungsional, menghindari kebutuhan komponen class.
 
-## Repository Contents
+## Isi Repositori
 
-This repository includes source code and examples for the following React Hooks topics:
+Repositori ini mencakup source code dan contoh untuk topik React Hooks berikut:
 
-- `useState`: Managing state in functional components.
-- `useEffect`: Handling side effects in functional components.
-- `useContext`: Accessing values from React context in functional components.
-- `useReducer`: Managing complex state logic in functional components.
-- Custom Hooks: Creating and using custom hooks for reusable logic.
+- `useState`: Mengelola state dalam komponen fungsional.
+- `useEffect`: Menangani efek samping dalam komponen fungsional.
+- `useContext`: Mengakses nilai dari konteks React dalam komponen fungsional.
+- `useReducer`: Mengelola logika state yang kompleks dalam komponen fungsional.
+- Custom Hooks: Membuat dan menggunakan custom hooks untuk logika yang dapat digunakan kembali.
 
-## How to Use This Repository
+## Cara Menggunakan Repositori Ini
 
-1. Clone this repository to your local machine.
-2. Navigate to the repository directory in your terminal.
-3. Install dependencies using the command: `npm install` or `yarn install`.
-4. Explore the source code related to each React Hook in the respective directories.
+1. Clone repositori ini ke komputer lokal Anda.
+2. Buka terminal dan arahkan ke direktori repositori.
+3. Instal dependensi dengan perintah: `npm install` atau `yarn install`.
+4. Jelajahi source code terkait masing-masing React Hook di direktori yang sesuai.
 
-Feel free to use the code examples in this repository as a reference or incorporate them into your own React projects. If you have any questions or suggestions, please open an issue or submit a pull request.
+Anda bisa menggunakan contoh kode dalam repositori ini sebagai referensi atau mengintegrasikannya ke dalam proyek React Anda sendiri.
 
-Happy coding with React Hooks!
+Selamat mencoba!
