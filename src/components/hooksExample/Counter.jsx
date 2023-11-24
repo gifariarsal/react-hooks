@@ -5,7 +5,10 @@ const Counter = () => {
   const [count, setCount] = React.useState(0);
   return (
     <>
-      <p>You clicked {count} times</p>
+      <h1>useState Example</h1>
+      <p>
+        You clicked <span>{count}</span> times
+      </p>
       <button onClick={() => setCount(count + 1)}>Count</button>
     </>
   );

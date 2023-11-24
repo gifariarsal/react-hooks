@@ -18,7 +18,10 @@ const CounterWithReducer = () => {
   const [count, dispatch] = React.useReducer(reducer, initialState);
   return (
     <>
-      <p>Count: {count}</p>
+      <h1>useReducer Example</h1>
+      <p>
+        Count: <span>{count}</span>
+      </p>
       <button onClick={() => dispatch("increment")}>Increment</button>
       <button onClick={() => dispatch("decrement")}>Decrement</button>
       <button onClick={() => dispatch("reset")}>Reset</button>

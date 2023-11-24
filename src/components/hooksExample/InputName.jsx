@@ -11,13 +11,16 @@ const InputName = () => {
 
   return (
     <>
+      <h1>useRef Example</h1>
       <input
         type="text"
         ref={inputRef}
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <p>Name: {name}</p>
+      <p>
+        Name: <span>{name}</span>
+      </p>
     </>
   );
 };

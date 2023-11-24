@@ -14,7 +14,6 @@ Repositori ini mencakup source code dan contoh untuk topik React Hooks berikut:
 - `useEffect`: Menangani efek samping dalam komponen fungsional.
 - `useContext`: Mengakses nilai dari konteks React dalam komponen fungsional.
 - `useReducer`: Mengelola logika state yang kompleks dalam komponen fungsional.
-- Custom Hooks: Membuat dan menggunakan custom hooks untuk logika yang dapat digunakan kembali.
 
 ## Cara Menggunakan Repositori Ini
 
