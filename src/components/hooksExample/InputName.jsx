@@ -10,7 +10,7 @@ const InputName = () => {
   }, []);
 
   return (
-    <>
+    <main>
       <h1>useRef Example</h1>
       <input
         type="text"
@@ -21,7 +21,7 @@ const InputName = () => {
       <p>
         Name: <span>{name}</span>
       </p>
-    </>
+    </main>
   );
 };
 

@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+* {
+  transition: all 0.3s ease;
+}
+
 p {
   font-size: 20px;
 }
@@ -31,4 +35,44 @@ button:hover {
 button:active {
   transform: scale(0.98);
   background-color: black;
+}
+
+#delete-button {
+  padding: 4px 12px;
+  background-color: red;
+  margin: 0;
+}
+
+#delete-button:hover {
+  background-color: darkred;
+}
+
+input {
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 4px 12px;
+}
+
+.to-do {
+  margin-top: 24px;
+  width: 40vw;
+  padding: 12px 24px;
+  margin: auto;
+}
+
+ul {
+  padding-left: 0;
+  width: 80%;
+  margin: auto;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  margin: 12px;
 }

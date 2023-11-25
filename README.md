@@ -8,12 +8,13 @@ React Hooks adalah fungsi yang memungkinkan Anda menggunakan state dan fitur Rea
 
 ## Isi Repositori
 
-Repositori ini mencakup source code dan contoh untuk topik React Hooks berikut:
+Repositori ini mencakup source code untuk topik React Hooks berikut:
 
 - `useState`: Mengelola state dalam komponen fungsional.
 - `useEffect`: Menangani efek samping dalam komponen fungsional.
-- `useContext`: Mengakses nilai dari konteks React dalam komponen fungsional.
+- `useRef`: Mengakses referensi ke elemen atau nilai dalam komponen fungsional.
 - `useReducer`: Mengelola logika state yang kompleks dalam komponen fungsional.
+- Latihan membuat aplikasi To-Do sederhana. Pastikan anda mencoba terlebih dahulu sebelum melihat source code ini.
 
 ## Cara Menggunakan Repositori Ini
 

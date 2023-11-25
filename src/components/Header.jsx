@@ -21,6 +21,9 @@ const Header = () => {
         <Link to="/use-reducer" className="link">
           useReducer
         </Link>
+        <Link to="/to-do-app" className="link">
+          ToDo App
+        </Link>
       </nav>
     </header>
   );
